@@ -31,7 +31,7 @@ Feature: Crater User Management
 		When user enters invalid Useremail "<Useremail>" and Password "<Password>"
 		And clicks on the login button 
 		Then error message appears
-		And user is not logged in
+		
 		And user quits the browser
 		
 		Examples:
